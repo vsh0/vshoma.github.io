@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&family=Sour+Gummy:ital,wdth@0,100..125;1,100..125&display=swap');
 
-@import "../node_modules/bootstrap/scss/_functions";
+@import "node_modules/bootstrap/scss/_functions";
 
 
 $primary: rgb(57, 87, 24);
@@ -11,7 +11,7 @@ $font-family-base: "Sour Gummy", system-ui;
 $headings-font-family: "Gorditas", system-ui;
 
 
-@import "../node_modules/bootstrap/scss/_variables";
+@import "node_modules/bootstrap/scss/_variables";
 
 // 5. Custom theme colors map
 $custom-theme-colors: (
@@ -22,7 +22,7 @@ $custom-theme-colors: (
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 
 
@@ -55,7 +55,7 @@ h3, .link-icon{
 .card{
     border-radius: 0.5rem;
     border: none;
-    background-image:url("../images/gingham.png");
+    background-image:url("images/gingham.png");
     
 }
 
